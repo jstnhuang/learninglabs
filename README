@@ -1,0 +1,11 @@
+Web Dev 101 learning labs
+
+This is a set of purely educational projects in web development, including:
+- Card maker
+- Beepbox
+
+Card maker is a simple Javascript application that shows how to use jQuery to
+read in inputs and use that information to customize a greeting card.
+
+Beepbox shows how to use PHP to read to and write from databases, how to perform
+long-polling, how to use PHP in general, and more Javascript. It's a very small version of Twitter.
