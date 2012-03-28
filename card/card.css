@@ -1,0 +1,66 @@
+body {
+  font-family: Sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  background-color: #007bad;
+  padding: 5px;
+  width: 500px;
+  margin: 0px auto 10px auto;
+}
+
+.inputArea {
+  background-color: #abc;
+  padding: 5px;
+  width: 500px;
+  margin: 0px auto 10px auto;
+}
+
+.inputArea input[name=submit]{
+  font-size: 1.5em;
+}
+
+.label {
+  width: 100px;
+  display: block;
+  float: left;
+}
+
+#card {
+  width: 450px;
+  height: 600px;
+  margin: 0px auto;
+  background-image: url(images/space.jpg);
+  position: relative;
+}
+
+#card .cardTitle {
+  filter:alpha(opacity=0.9);
+  -moz-opacity:0.9;
+  -khtml-opacity: 0.9;
+  opacity: 0.9;
+  background-color: #3C3E8C;
+}
+
+#card .cardTitle div {
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+  text-align: center;
+}
+
+#card .cardMessage {
+  width: 430px;
+  margin: 10px;
+  background-color: #E6E6F2;
+  position: absolute;
+  bottom: 0px;
+}
+
+#card .cardMessage div {
+  color: black;
+  padding: 10px;
+  font-size: 1.25em;
+}

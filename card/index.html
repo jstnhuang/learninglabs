@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Card maker</title>
+        <link rel="stylesheet" type="text/css" href="card.css" />
+        <script type="text/javascript" src="jquery-1.5.1.min.js"></script>
+        <script type="text/javascript" src="card.js"></script>
+    </head>
+    <body onload="init()">
+        <h1>Card maker</h1>
+        <div class="inputArea">
+            <form name="cardInput" action="">
+                <span class="label">Enter name:</span>
+                <input type="text" name="name" /><br />
+                
+                <span class="label">Occasion:</span>
+                <select name="occasion">
+                    <option value="birthday">Birthday</option>
+                    <option value="graduation">Graduation</option>
+                    <option value="get-well-soon">Get well soon</option>
+										<option value="its-a-girl">It's a girl!</option>
+										<option value="its-a-boy">It's a boy!</option>
+                </select><br />
+                
+                <span class="label">Background:</span>
+                <select name="background">
+                    <option value="space">Space</option>
+                    <option value="history">History</option>
+                    <option value="surfing">Surfing</option>
+                </select><br />
+                
+                <span class="label">Message:</span>
+                <textarea name="message" rows="4" cols="40"></textarea><br />
+                
+                <input type="button" name="submit" value="Make card" />
+            </form>
+        </div>
+        
+        <div id="card">
+            <div class="cardTitle">
+            </div>
+            <div class="cardMessage">
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,5 @@
+Card maker
+Demonstrates some simple jQuery / Javascript techniques. For complete beginners,
+we use this to demonstrate stuff like if-statements, string concatenation, etc.
+For people who know a bit of HTML, we use it to demonstrate jQuery, how to read
+inputs, modify the page, etc.
