@@ -1,0 +1,60 @@
+#container {
+  margin: 0px auto;
+  width: 90%;
+  min-width: 700px;
+  max-width: 1024px;
+  font-family: Sans-serif;
+}
+
+#container h1 {
+  text-align: center;
+}
+
+.box {
+  background-color: #F5D787;
+  padding: 5px;
+}
+
+.box + .box {
+  margin-top: 10px;
+}
+
+.box h2 {
+  margin-top: 0px;
+}
+
+.box input[type="text"] {
+  font-size: 1em;
+  padding: 5px;
+}
+
+.box textarea {
+  width: 90%;
+  margin: 0px auto;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+.box input[type="submit"] {
+  font-size: 1.5em;
+}
+
+.beep + .beep {
+  margin-top: 10px;
+}
+
+.beep {
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #F0E3C0;
+}
+
+#notificationBar {
+  top: 10px;
+  clear: both;
+  background-color: #F5D787;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  margin: 0px auto;
+}

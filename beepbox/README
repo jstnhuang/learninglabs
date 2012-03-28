@@ -1,0 +1,25 @@
+Beepbox
+Beepbox is a small application that shows how to use PHP to add to and read from
+a MySQL database, generate code, and perform long-polling.
+
+The application allows anyone to "Drop a beep" up to 150 characters in length.
+Beeps are shown on the site as they are posted.
+
+Files:
+index.php
+  The page that you see.
+beepbox.css
+  The CSS for index.php.
+jquery.js
+  Standard jQuery, version 1.7.1.
+beepbox.js
+  Sends AJAX requests periodically to beepbox.php to get the latest beeps. Also
+  sends an AJAX request to add a new beep, generates HTML, handles the
+  notification bar behavior, and keeps track of the beep count. 
+config.php
+  Configuration file that contains DB connection info.
+beepbox.php
+  Inserts beeps into our MySQL database if the POST variable action is set to
+  "beep", or just retrieves a list of the latest 100 beeps otherwise.
+beepbox.sql
+  SQL code to set up the beepbox database.
